@@ -88,11 +88,6 @@ To run ESLint and check code quality:
 npm run lint
 ```
 
-Or with yarn:
-```bash
-yarn lint
-```
-
 ##  Project Structure
 
 ```
@@ -156,7 +151,7 @@ my-financedashboard/
   - Highest spending category
   - Monthly income/expense comparisons with percentage changes
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The application is fully responsive and works on:
 - **Desktop**: Full feature set with side-by-side layouts
