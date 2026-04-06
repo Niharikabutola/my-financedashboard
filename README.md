@@ -1,8 +1,8 @@
-# 💰 Financial Dashboard
+#  Financial Dashboard
 
 A modern, responsive React application for tracking and analyzing personal financial activities. Built with React, Vite, and Recharts for data visualization.
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - **Dashboard Overview**: Summary cards showing total balance, income, and expenses
@@ -18,7 +18,7 @@ A modern, responsive React application for tracking and analyzing personal finan
 - **Data Export**: Export transaction data to CSV format
 - **Advanced Filtering**: Filter by type, category, and search functionality
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Frontend Framework**: React 19.2.4
 - **Build Tool**: Vite 8.0.1
@@ -27,7 +27,7 @@ A modern, responsive React application for tracking and analyzing personal finan
 - **State Management**: React Context API + useState
 - **Development**: ESLint for code quality
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before running this project, make sure you have the following installed:
 
@@ -40,7 +40,7 @@ node --version
 npm --version
 ```
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone the repository** (if applicable) or navigate to the project directory:
    ```bash
@@ -52,12 +52,8 @@ npm --version
    npm install
    ```
 
-   Or if you prefer yarn:
-   ```bash
-   yarn install
-   ```
 
-## 🏃‍♂️ Running the Application
+##  Running the Application
 
 ### Development Mode
 To start the development server with hot reload:
@@ -66,10 +62,7 @@ To start the development server with hot reload:
 npm run dev
 ```
 
-Or with yarn:
-```bash
-yarn dev
-```
+
 
 The application will be available at `http://localhost:5173` (default Vite port).
 
@@ -80,11 +73,6 @@ To create a production build:
 npm run build
 ```
 
-Or with yarn:
-```bash
-yarn build
-```
-
 ### Preview Production Build
 To preview the production build locally:
 
@@ -92,10 +80,6 @@ To preview the production build locally:
 npm run preview
 ```
 
-Or with yarn:
-```bash
-yarn preview
-```
 
 ### Code Linting
 To run ESLint and check code quality:
@@ -109,7 +93,7 @@ Or with yarn:
 yarn lint
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 my-financedashboard/
@@ -139,7 +123,7 @@ my-financedashboard/
 └── README.md
 ```
 
-## 🎯 Usage
+##  Usage
 
 ### Getting Started
 1. Start the development server: `npm run dev`
@@ -179,36 +163,11 @@ The application is fully responsive and works on:
 - **Tablet**: Adjusted layouts with proper spacing
 - **Mobile**: Stacked layouts and touch-friendly controls
 
-## 🔧 Customization
-
-### Adding New Transactions
-The app comes with sample data. To add more transactions programmatically, modify the `fetchTransactions` function in `src/App.jsx`.
-
-### Styling
-- Colors are managed through CSS variables in `src/App.css`
-- Dark/light themes are defined in the same file
-- Component-specific styles are in their respective CSS files
-
-### Charts
-- Charts are built using Recharts library
-- Data processing happens in the component files
-- Chart configurations can be modified in `src/components/Dashboard/Dashboard.jsx`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and test thoroughly
-4. Run linting: `npm run lint`
-5. Commit your changes: `git commit -am 'Add new feature'`
-6. Push to the branch: `git push origin feature-name`
-7. Submit a pull request
-
-## 📄 License
+##  License
 
 This project is for educational purposes. Feel free to use and modify as needed.
 
-## 🆘 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -219,14 +178,10 @@ This project is for educational purposes. Feel free to use and modify as needed.
 - Clear npm cache: `npm cache clean --force`
 - Delete `node_modules` and `package-lock.json`, then run `npm install`
 
-**Build fails:**
-- Ensure all dependencies are installed
-- Check for any ESLint errors and fix them
-
 **Charts not displaying:**
 - Ensure Recharts is properly installed
 - Check browser console for any JavaScript errors
 
 ---
 
-Built with ❤️ using React and Vite
+Built with ❤️ using React.
